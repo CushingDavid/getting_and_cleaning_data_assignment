@@ -1,0 +1,46 @@
+** You should include the code book describing the variables.
+
+** List of datasets created by the script:
+"colheads"			- the column headers fro the measurements      
+"dat_tot"       	- the test, training datasets joined with the subject and activity (10299 x 563)
+"datmean"       	- the mean variables selected from dat_tot
+"datstd"        	- the std variables selected from data_tot
+"features"     		- the downloaded 'features.txt' file
+"meanstd"       	- the mean and std data joined from dat_tot
+"meansummary"   	- the final summary of all the grouped averages
+"subject_test"  	- list of test subjects 
+"subject_train" 	- list of training subjects
+"test"         		- the test data with subject and activiy columns
+"train"         	- the train data with subject and activiy columns
+"x_test"        	- data from the downloaded 'X_test.txt' file
+"x_train"       	- data from the downloaded 'x_train.txt' file
+"y_test"        	- data from the downloaded 'y_test.txt' file
+"y_train"			- data from the downloaded 'y_train.txt' file
+
+The final uploaded 'tidydata.txt' file was created with
+			write.table() using row.name=FALSE and separator /t 
+
+** List of Column headers from the tidydata.txt file:
+"subject"                    
+"activity"                   
+"TimeBodyAccMag-mean()"     
+"TimeGravityAccMag-mean()"   
+"TimeBodyAccJerkMag-mean()"  
+"TimeBodyGyroMag-mean()"    
+"TimeBodyGyroJerkMag-mean()" 
+"FreqBodyAccMag-mean()"      
+"FreqBodyAccJerkMag-mean()" 
+"FreqBodyGyroMag-mean()"     
+"FreqBodyGyroJerkMag-mean()" 
+"TimeBodyAccMag-std()"      
+"TimeGravityAccMag-std()"    
+"TimeBodyAccJerkMag-std()"   
+"TimeBodyGyroMag-std()"     
+"TimeBodyGyroJerkMag-std()"  
+"FreqBodyAccMag-std()"       
+"FreqBodyAccJerkMag-std()"  
+"FreqBodyGyroMag-std()"      
+"FreqBodyGyroJerkMag-std()" 
+
+
+

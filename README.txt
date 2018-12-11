@@ -20,8 +20,14 @@ How the run_analysis script works:
 6. Next, the script adds column headers to the main data frames. 
 7. The data is then joined into one data frame using cbind and rbind
 8. Extract the mean and standard deviation coulmns from the data frame, excluding the directional x,y,z data and any duplicate columns.
+		(the magnitude of the three-dimensional signals, used in the data mean summary, were calculated using the Euclidean norm)
 9. Rename the numbered activies using descriptive names (walk, walkup, walkdown, sit, stand, lay). 
 10. Rename some of the dodgy measurement column headers. 
 11. Group the data frame by subject and activity. 
 12. Calculate the measurement mean from each grouped set of rows.
 13. Write the tidy data containing the average of each of the selected columns out to a text file 'tidydata.txt'   
+
+Used websites and references: 
+https://datacarpentry.org/R-genomics/04-dplyr.html
+https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
+Wickham & Grolemund (2017) - 'R for Data Science', O'Reilly
