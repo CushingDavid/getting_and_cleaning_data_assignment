@@ -1,3 +1,4 @@
+
 ** You should include the code book describing the variables.
 
 ** List of datasets created by the script:
@@ -19,6 +20,8 @@
 
 The final uploaded 'tidydata.txt' file was created with
 			write.table() using row.name=FALSE and separator /t 
+
+The activity and subject column are renamed 'activity' and 'subject' 
 
 ** List of Column headers from the tidydata.txt file:
 "subject"                    
