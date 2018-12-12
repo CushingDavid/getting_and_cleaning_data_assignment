@@ -22,8 +22,15 @@ The final uploaded 'tidydata.txt' file was created with
 			write.table() using row.name=FALSE and separator /t 
 
 The activity and subject column are renamed 'activity' and 'subject' 
+The 6 different activities were named:
+activity 1 <- "walk" 		# walking 
+activity 2 <- "walkup" 		# walking upstairs
+activity 3 <- "walkdown"	# waking downstairs
+activity 4 <- "sit"		# sitting down
+activity 5 <- "stand"		# standing
+activity 6 <- "lay"		# laying down
 
-** List of Column headers from the tidydata.txt file:
+**List of Column headers from the tidydata.txt file:
 "subject"                    
 "activity"                   
 "TimeBodyAccMag-mean()"     
