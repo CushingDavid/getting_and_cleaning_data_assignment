@@ -37,8 +37,8 @@ How the run_analysis script works:
 7. The data is then joined into one data frame using cbind and rbind
 
 8. Extract the mean and standard deviation coulmns from the data frame, excluding the directional x,y,z data and any duplicate columns.
-
-		(the magnitude of the three-dimensional signals, used in the data mean summary, were calculated using the Euclidean norm)
+	Here the magnitude of the 3 directions has been summarised using a mean calculated using the Eucliden norm. Therefore,
+	individual directions are not really required (or asked for!) 
 
 9. Rename the numbered activies using descriptive names (walk, walkup, walkdown, sit, stand, lay). 
 
